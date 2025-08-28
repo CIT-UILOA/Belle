@@ -648,7 +648,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/tarball/Documents/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -672,6 +672,10 @@
     [
       "c8618b48-a44a-4b17-ab33-542db64ac1dc",
       "[2] Fan & Misc Systems"
+    ],
+    [
+      "c889d685-3039-4adb-ba70-2b5226dc43de",
+      "[3] Motors"
     ]
   ],
   "text_variables": {}
