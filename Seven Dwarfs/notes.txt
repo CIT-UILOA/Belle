@@ -1,0 +1,5 @@
+List of dwarfs and their roles:
+
+Happy: Frontend
+Doc: Backend
+Dopey: Database
