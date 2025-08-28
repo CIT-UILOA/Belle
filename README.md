@@ -14,7 +14,7 @@ STEM 12-Altruism
 Academic Year 2025-2026
 ```
 
-```
+```txt
 Natalio B Bacalso Ave, Cebu City
 Cebu, Philippines, 6000
 ```
