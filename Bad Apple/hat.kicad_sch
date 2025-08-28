@@ -12,6 +12,148 @@
 		(comment 4 "This sheet defines the Raspberry Pi HAT interface")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2274,6 +2416,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Raspberry Pi GPIO Pinout"
+		(exclude_from_sim no)
+		(at 196.596 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "922fbb69-a259-4389-a538-73363d241a66")
+	)
+	(text "I^{2}C Interface for the Identification\nEEPROM. Only used during development to\nflash said EEPROM with information required\nfor ease of use"
+		(exclude_from_sim no)
+		(at 48.514 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab4bd938-4743-4101-8e69-1d94fc9d09a5")
+	)
 	(text "ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nBridging JP1 enables write protection.\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required."
 		(exclude_from_sim no)
 		(at 16.51 194.31 0)
@@ -2441,6 +2604,16 @@
 			(type solid)
 		)
 		(uuid "24170923-88ff-4aa9-875c-6a1ff99b21d1")
+	)
+	(wire
+		(pts
+			(xy 25.4 138.43) (xy 39.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243e8ece-f830-4bd9-ad7c-e9583999b49b")
 	)
 	(wire
 		(pts
@@ -2701,6 +2874,16 @@
 			(type solid)
 		)
 		(uuid "6eff1c50-0be2-431f-88c8-e5d13c616bfc")
+	)
+	(wire
+		(pts
+			(xy 25.4 140.97) (xy 39.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73efa3b4-3e22-4869-a228-5d566bb70ee6")
 	)
 	(wire
 		(pts
@@ -3192,6 +3375,16 @@
 		)
 		(uuid "28ebb317-4478-4a84-93e5-53e262aec2be")
 	)
+	(label "ID_SCL"
+		(at 25.4 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a73588f-daa6-4aa2-9999-327d0dda1344")
+	)
 	(label "GPIO9{slash}SPI0.MISO"
 		(at 109.22 90.17 0)
 		(effects
@@ -3251,6 +3444,16 @@
 			(justify right bottom)
 		)
 		(uuid "6a831992-3da4-4fcf-95cd-ebb7d3924c37")
+	)
+	(label "ID_SDA"
+		(at 25.4 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "818daaac-7d29-4764-ac0b-2e5e06280907")
 	)
 	(label "ID_SCL"
 		(at 177.8 97.79 180)
@@ -4203,6 +4406,74 @@
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b30abb3a-5689-47ca-b698-70986eaac049"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 44.45 140.97 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58641400-406b-43e1-8729-e159eff89420")
+		(property "Reference" "J8"
+			(at 44.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "403e2eb0-cf82-429d-a315-0fdf4bd4214c")
+		)
+		(pin "2"
+			(uuid "9f15534a-6e91-4fed-baf0-586af7c42c56")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b30abb3a-5689-47ca-b698-70986eaac049"
+					(reference "J8")
 					(unit 1)
 				)
 			)
