@@ -3,7 +3,6 @@
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
-*.lck
 
 # KiCad generated files
 *.net
