@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "26b6b9fb-6549-451b-9015-ee2260e80d7d")
 	(paper "A4")
+	(title_block
+		(title "Autonomous  Courier Robot \"Bad Apple\"")
+		(date "2025-08-28")
+		(rev "1")
+		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
+		(comment 4 "This sheet defines the Raspberry Pi HAT interface")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
@@ -2277,6 +2284,17 @@
 			(justify left bottom)
 		)
 		(uuid "b5ff978d-3bdd-4d42-9880-78b666359350")
+	)
+	(text "Additional pin functions:\nhttps://pinout.xyz/"
+		(exclude_from_sim no)
+		(at 176.53 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffddfcee-b589-4e43-9692-a2d0180890f6")
 	)
 	(junction
 		(at 93.98 166.37)

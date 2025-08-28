@@ -5,20 +5,12 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(date "15 nov 2012")
+		(title "Autonomous  Courier Robot \"Bad Apple\"")
+		(date "2025-08-28")
+		(rev "1")
+		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
 	)
 	(lib_symbols)
-	(text "Additional pin functions:\nhttps://pinout.xyz/"
-		(exclude_from_sim no)
-		(at 179.07 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36e2c557-2c2a-4fba-9b6f-1167ab8ec281")
-	)
 	(sheet
 		(at 31.75 30.48)
 		(size 48.26 34.29)
@@ -62,8 +54,8 @@
 		)
 	)
 	(sheet
-		(at 248.92 62.23)
-		(size 26.67 39.37)
+		(at 101.6 43.18)
+		(size 67.31 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -78,7 +70,7 @@
 		)
 		(uuid "c8618b48-a44a-4b17-ab33-542db64ac1dc")
 		(property "Sheetname" "[2] Fan & Misc Systems"
-			(at 248.92 61.5184 0)
+			(at 101.6 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "fan.kicad_sch"
-			(at 248.92 102.1846 0)
+			(at 101.6 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

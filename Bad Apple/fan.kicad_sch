@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "e6428acc-8f3f-42de-8669-c69de46d041f")
 	(paper "A4")
+	(title_block
+		(title "Autonomous  Courier Robot \"Bad Apple\"")
+		(date "2025-08-28")
+		(rev "1")
+		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
+		(comment 4 "CPU Fan")
+	)
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)
