@@ -1,0 +1,15 @@
+# KiCad backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*.lck
+
+# KiCad generated files
+*.net
+*.drl
+*.gbr
+*.gbrjob
+*.xml
+*.csv
+fp-info-cache
