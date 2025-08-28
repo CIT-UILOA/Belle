@@ -12,6 +12,36 @@
 		(comment 4 "Schematic Overview")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 80.01 52.07) (xy 101.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57babe16-01f2-49cd-943f-2f5dc4c3a90e")
+	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 101.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f907c0-8e14-435f-8ecc-9cbe54ce4525")
+	)
+	(wire
+		(pts
+			(xy 54.61 64.77) (xy 54.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f0a949-8184-460b-8e2f-3d2a9f255e73")
+	)
 	(sheet
 		(at 31.75 30.48)
 		(size 48.26 34.29)
@@ -44,6 +74,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LIDAR MOTOR" output
+			(at 80.01 49.53 0)
+			(uuid "f892eb3b-1e92-48a9-9d44-451c8db31d36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" input
+			(at 80.01 52.07 0)
+			(uuid "430cf4b2-78b6-43fd-96fb-23409b85c664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR SPEED" output
+			(at 54.61 64.77 270)
+			(uuid "1583d593-f6eb-473b-ab70-92d1ea3d0f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -88,6 +148,26 @@
 				(justify left top)
 			)
 		)
+		(pin "PWM" input
+			(at 101.6 49.53 180)
+			(uuid "ad2dec59-7947-47ee-84e0-7f4e11d4fa06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" output
+			(at 101.6 52.07 180)
+			(uuid "7237fc73-fcca-4203-a7ce-28570baf5844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -128,6 +208,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MOTOR SPEED" input
+			(at 54.61 76.2 90)
+			(uuid "687ab885-5630-4371-bb77-653ba04e28a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
