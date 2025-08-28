@@ -9,6 +9,7 @@
 		(date "2025-08-28")
 		(rev "1")
 		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
+		(comment 4 "Schematic Overview")
 	)
 	(lib_symbols)
 	(sheet
