@@ -1,8 +1,20 @@
 # Belle
-Snow White and the Seven Dwarves~
-
-This is the codebase for this Research 12A/B Project:
 
 > *Experimental Development of an Autonomous Rover Nurse for Reliable Pre-Meal Insulin Delivery: Advancing Diabetes Care Towards SDG 3 - Good Health and Well-Being*
 
-Please look forward to the development of this massively complicated project!!
+This repository contains the code and CAD files related to this research
+project.
+
+Project by:
+
+```txt
+Cebu Institute of Technology-University Senior High School Department
+Mixed Engineering Group 3
+STEM 12-Altruism
+Academic Year 2025-2026
+```
+
+```
+Natalio B Bacalso Ave, Cebu City
+Cebu, Philippines, 6000
+```
