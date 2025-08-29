@@ -4,5 +4,12 @@
 	(generator_version "9.0")
 	(uuid "7cb3478c-ae99-43f3-b89d-a989222d0996")
 	(paper "A4")
+	(title_block
+		(title "Autonomous  Courier Robot \"Bad Apple\"")
+		(date "2025-08-28")
+		(rev "1")
+		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
+		(comment 4 "12-24V ~5A Power supply for the 4 motors that will power the robot")
+	)
 	(lib_symbols)
 )

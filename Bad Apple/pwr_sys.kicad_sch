@@ -4,5 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0ce25bd0-558b-41fa-aeec-b5e68053d9d9")
 	(paper "A4")
+	(title_block
+		(title "Autonomous  Courier Robot \"Bad Apple\"")
+		(date "2025-08-28")
+		(rev "1")
+		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
+		(comment 4 "5V ~1A power supply for the raspberry pi and the hat's peripherals")
+	)
 	(lib_symbols)
 )

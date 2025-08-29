@@ -4,9 +4,47 @@
 	(generator_version "9.0")
 	(uuid "ad3c322f-d007-4c38-9c24-6acd084f67ac")
 	(paper "A4")
+	(title_block
+		(title "Autonomous  Courier Robot \"Bad Apple\"")
+		(date "2025-08-28")
+		(rev "1")
+		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
+	)
 	(lib_symbols)
+	(text "12-24/30V 5A (ig) power supply.\n\nThis part will not be designed unless\na motor can be selected for these things"
+		(exclude_from_sim no)
+		(at 58.42 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fd8fcbb-b635-4189-bc41-ec6b66a07e22")
+	)
+	(text "5V 1A (ig) power supply\n\nThe current provided by this power supply should be\naround 20-30% higher than what is needed just in case"
+		(exclude_from_sim no)
+		(at 58.166 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5011535-eb30-4bbf-ab66-7659fd419e5f")
+	)
+	(text "The motors will have a separate power supply from\nthe rest of the system in order to isolate the\nmotor's noise from the rest of the system.\n\nAdditionally, This setup is required since the\nmotors will be running at a much higher voltage than\nthe rest of the system"
+		(exclude_from_sim no)
+		(at 175.768 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d20302c7-63f6-4d5b-b25b-7380830b059e")
+	)
 	(sheet
-		(at 143.51 26.67)
+		(at 57.15 31.75)
 		(size 64.77 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +60,7 @@
 		)
 		(uuid "2f9f6df0-57c6-46a7-8f22-b0c2ea8fe878")
 		(property "Sheetname" "[2a] Motor Power Supply"
-			(at 143.51 25.9584 0)
+			(at 57.15 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +69,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr_motor.kicad_sch"
-			(at 143.51 59.0046 0)
+			(at 57.15 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +86,7 @@
 		)
 	)
 	(sheet
-		(at 163.83 74.93)
+		(at 57.15 85.09)
 		(size 69.85 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +102,7 @@
 		)
 		(uuid "6429504f-567e-478a-8f7f-92926a106ca4")
 		(property "Sheetname" "[2b] System Power Supply"
-			(at 163.83 74.2184 0)
+			(at 57.15 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +111,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr_sys.kicad_sch"
-			(at 163.83 117.4246 0)
+			(at 57.15 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

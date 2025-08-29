@@ -688,6 +688,14 @@
     [
       "c889d685-3039-4adb-ba70-2b5226dc43de",
       "[4] Motors"
+    ],
+    [
+      "2394839d-9e88-4e41-b13f-00b3dabd06d6",
+      "[4a] Main Motor Driver"
+    ],
+    [
+      "406caedd-a2b1-46ad-b9cd-3c72cd48bc6d",
+      "[4b] Servo Motor Driver"
     ]
   ],
   "text_variables": {}
