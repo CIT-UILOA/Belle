@@ -902,7 +902,7 @@
 	)
 	(text "Mounting Holes for the CPU Fan"
 		(exclude_from_sim no)
-		(at 165.608 79.248 0)
+		(at 100.838 90.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -934,7 +934,7 @@
 	)
 	(text "Fan\n\nA hole should be created somewhere\nfor the fan. Mounting holes should\nalso be added to make sure the fan\nhas somewhere to be mounted on"
 		(exclude_from_sim no)
-		(at 123.698 105.156 0)
+		(at 58.928 116.586 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -964,7 +964,7 @@
 	)
 	(text "CPU Fan Connector"
 		(exclude_from_sim no)
-		(at 158.496 74.93 0)
+		(at 93.726 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1057,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 127 86.36)
+			(xy 62.23 95.25) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 124.46 86.36)
+			(xy 62.23 97.79) (xy 59.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 91.44)
+			(xy 62.23 100.33) (xy 62.23 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 127 88.9)
+			(xy 59.69 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1284,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 104.14 111.76) (xy 167.64 111.76) (xy 167.64 76.2) (xy 104.14 76.2)
+				(xy 39.37 123.19) (xy 102.87 123.19) (xy 102.87 87.63) (xy 39.37 87.63)
 			)
 			(stroke
 				(width 0)
@@ -1332,7 +1332,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 127 83.82 0)
+		(at 62.23 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1341,7 +1341,7 @@
 		(fields_autoplaced yes)
 		(uuid "04ad347b-9012-48f2-9183-e44f06579dcb")
 		(property "Reference" "#PWR06"
-			(at 127 87.63 0)
+			(at 62.23 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1350,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127 78.74 0)
+			(at 62.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 83.82 0)
+			(at 62.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 83.82 0)
+			(at 62.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 83.82 0)
+			(at 62.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1398,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 83.82 0)
+		(at 99.06 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1408,7 +1408,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b52a94b-eeab-4d73-8e83-8ad872a3239e")
 		(property "Reference" "H1"
-			(at 161.29 82.5499 0)
+			(at 96.52 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1417,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 85.0899 0)
+			(at 96.52 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1426,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 163.83 83.82 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 83.82 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1444,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 163.83 83.82 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 88.9 0)
+		(at 99.06 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1691,7 +1691,7 @@
 		(fields_autoplaced yes)
 		(uuid "80247cc7-fbc1-47c8-8cc1-4b4afb0036c4")
 		(property "Reference" "H2"
-			(at 161.29 87.6299 0)
+			(at 96.52 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1700,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 90.1699 0)
+			(at 96.52 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1709,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 163.83 88.9 0)
+			(at 99.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 88.9 0)
+			(at 99.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1727,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 163.83 88.9 0)
+			(at 99.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1746,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 119.38 86.36 0)
+		(at 54.61 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1756,7 +1756,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b2298dc-29af-4f20-94d1-614d0f74b5b3")
 		(property "Reference" "J2"
-			(at 119.38 80.01 0)
+			(at 54.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1764,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 119.38 82.55 0)
+			(at 54.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1772,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
-			(at 119.38 86.36 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +1781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 86.36 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1790,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 86.36 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1957,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 93.98 0)
+		(at 99.06 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1967,7 +1967,7 @@
 		(fields_autoplaced yes)
 		(uuid "d685d290-c224-479f-8c02-dd5b7ca57be6")
 		(property "Reference" "H3"
-			(at 161.29 92.7099 0)
+			(at 96.52 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1976,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 95.2499 0)
+			(at 96.52 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +1985,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 163.83 93.98 0)
+			(at 99.06 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +1994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 93.98 0)
+			(at 99.06 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2003,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 163.83 93.98 0)
+			(at 99.06 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2023,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 127 91.44 0)
+		(at 62.23 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2032,7 +2032,7 @@
 		(fields_autoplaced yes)
 		(uuid "de3d2567-66b4-4431-b6fb-c61904a43994")
 		(property "Reference" "#PWR05"
-			(at 127 97.79 0)
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 96.52 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 91.44 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 91.44 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 91.44 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2089,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 99.06 0)
+		(at 99.06 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2099,7 +2099,7 @@
 		(fields_autoplaced yes)
 		(uuid "e450a2e7-8faa-424c-b253-e263bc031adf")
 		(property "Reference" "H4"
-			(at 161.29 97.7899 0)
+			(at 96.52 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 100.3299 0)
+			(at 96.52 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2117,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 163.83 99.06 0)
+			(at 99.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 99.06 0)
+			(at 99.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 163.83 99.06 0)
+			(at 99.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

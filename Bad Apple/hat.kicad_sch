@@ -2416,6 +2416,72 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I^{2}C Bus for the servo motor controller and other\nperipherals"
+		(exclude_from_sim no)
+		(at 99.568 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10fce638-401b-42d2-86c7-7998d85da68b")
+	)
+	(text "Ultrasound Sensors\nU1 and U2 refer to the left and right\nultrasonic distance sensor units mounted\nnear the ground of Bad Apple"
+		(exclude_from_sim no)
+		(at 94.996 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35359266-ffd2-4a3b-815d-a201a0cde172")
+	)
+	(text "Data recieved from the LiDAR scanner module"
+		(exclude_from_sim no)
+		(at 183.896 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d83b96b-71d1-4322-a05b-e8815cece31d")
+	)
+	(text "Whether or not to enable the servo motors.\nEnabled when this pin is pulled LOW"
+		(exclude_from_sim no)
+		(at 194.056 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42cbcecb-2053-48af-80d7-7b62f796a183")
+	)
+	(text "Motor 2 Direction"
+		(exclude_from_sim no)
+		(at 101.854 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48316497-ffb9-4add-a6f5-eb87127cac3f")
+	)
+	(text "Motor 1 Direction"
+		(exclude_from_sim no)
+		(at 101.346 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e013786-2f41-4793-a424-d96f478fae69")
+	)
 	(text "Raspberry Pi GPIO Pinout"
 		(exclude_from_sim no)
 		(at 196.596 60.452 0)
@@ -2425,6 +2491,28 @@
 			)
 		)
 		(uuid "922fbb69-a259-4389-a538-73363d241a66")
+	)
+	(text "Motor 4 Direction"
+		(exclude_from_sim no)
+		(at 184.912 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92b99358-3d52-4d73-877e-bf91df07421b")
+	)
+	(text "Motor 3 Direction"
+		(exclude_from_sim no)
+		(at 185.166 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4e009bf-03f1-4d9e-a35e-2055ec17253a")
 	)
 	(text "I^{2}C Interface for the Identification\nEEPROM. Only used during development to\nflash said EEPROM with information required\nfor ease of use"
 		(exclude_from_sim no)
@@ -2447,6 +2535,28 @@
 			(justify left bottom)
 		)
 		(uuid "b5ff978d-3bdd-4d42-9880-78b666359350")
+	)
+	(text "Motor speed of Motors 1 through 4"
+		(exclude_from_sim no)
+		(at 92.964 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c84a0f56-84c8-4e0f-8a68-9e4960cb9fd0")
+	)
+	(text "LiDAR scanner motor speed"
+		(exclude_from_sim no)
+		(at 193.548 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2dbe6d1-9dad-49ad-9b3d-606afb51ff2f")
 	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
@@ -3615,6 +3725,17 @@
 		)
 		(uuid "fa8135fd-b739-45c3-88e6-e37c99a502ac")
 	)
+	(hierarchical_label "~{SERVO ENABLE}"
+		(shape output)
+		(at 177.8 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ed238e5-1914-47df-9298-dae4328d057b")
+	)
 	(hierarchical_label "LIDAR MOTOR"
 		(shape output)
 		(at 177.8 102.87 0)
@@ -3625,6 +3746,50 @@
 			(justify left)
 		)
 		(uuid "0efa46e3-3c2d-49e0-98e7-7d73f5d5fe35")
+	)
+	(hierarchical_label "U2 TRIGGER"
+		(shape output)
+		(at 109.22 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2196dc21-1c33-4547-9833-c5a15dc02456")
+	)
+	(hierarchical_label "M1DB"
+		(shape output)
+		(at 109.22 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22b9977d-9444-4eb3-87ab-9a1f5b34e486")
+	)
+	(hierarchical_label "M2DA"
+		(shape output)
+		(at 109.22 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5090d20c-8542-4b9a-b750-41634110877e")
+	)
+	(hierarchical_label "M4DA"
+		(shape output)
+		(at 177.8 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6010cbd0-e38c-497a-b20a-d75ee1d9fdd7")
 	)
 	(hierarchical_label "MOTOR SPEED"
 		(shape output)
@@ -3637,6 +3802,94 @@
 		)
 		(uuid "6b9e9e33-82ec-4b94-b5d4-067e7f05acb5")
 	)
+	(hierarchical_label "U1 ECHO"
+		(shape input)
+		(at 109.22 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dd2c7d1-e31e-4e0c-a9ad-3bf34f5f43fe")
+	)
+	(hierarchical_label "I^{2}C SDA"
+		(shape bidirectional)
+		(at 109.22 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7628fd1d-f3d3-4854-9ed9-8d471db591bb")
+	)
+	(hierarchical_label "U1 TRIGGER"
+		(shape output)
+		(at 109.22 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "809b6cc5-564d-476d-bdf1-86d3c86dcba2")
+	)
+	(hierarchical_label "U2 ECHO"
+		(shape input)
+		(at 109.22 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8720d06f-7269-42c4-b8d3-b373cd1b53ca")
+	)
+	(hierarchical_label "M4DB"
+		(shape output)
+		(at 177.8 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcda3b27-3fe8-4294-b300-30f7b752237f")
+	)
+	(hierarchical_label "M3DB"
+		(shape output)
+		(at 177.8 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c86a46cf-ed4b-4101-a1ed-3cf03cf4fcae")
+	)
+	(hierarchical_label "I^{2}C SCL"
+		(shape output)
+		(at 109.22 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d23a2a85-aed2-4dd8-9b0c-ad9e62fadc75")
+	)
+	(hierarchical_label "M2DB"
+		(shape output)
+		(at 109.22 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8a7681f-828c-4c30-afeb-e643faadd666")
+	)
 	(hierarchical_label "RXD"
 		(shape input)
 		(at 177.8 74.93 0)
@@ -3647,6 +3900,28 @@
 			(justify left)
 		)
 		(uuid "df9b918b-97d7-4d0d-a10e-a3c03e3c0c44")
+	)
+	(hierarchical_label "M1DA"
+		(shape output)
+		(at 109.22 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eaa998a6-9813-40b9-b19f-9ae7219aefb0")
+	)
+	(hierarchical_label "M3DA"
+		(shape output)
+		(at 177.8 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc4d2c73-50e3-470a-a2ac-25863cd82709")
 	)
 	(symbol
 		(lib_id "power:+5V")
