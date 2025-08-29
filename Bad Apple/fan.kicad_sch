@@ -2001,12 +2001,12 @@
 	)
 	(text "Mounting Holes for the CPU Fan"
 		(exclude_from_sim no)
-		(at 15.748 171.958 0)
+		(at 86.868 24.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "53e0c72b-dbd6-4718-b99b-351476fed535")
 	)
@@ -3582,7 +3582,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 25.4 57.15) (xy 64.77 57.15) (xy 64.77 21.59) (xy 25.4 21.59)
+				(xy 25.4 57.15) (xy 88.9 57.15) (xy 88.9 21.59) (xy 25.4 21.59)
 			)
 			(stroke
 				(width 0)
@@ -3880,7 +3880,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 176.53 0)
+		(at 85.09 29.21 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3889,7 +3890,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b52a94b-eeab-4d73-8e83-8ad872a3239e")
 		(property "Reference" "H1"
-			(at 20.32 175.2599 0)
+			(at 82.55 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3899,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 177.7999 0)
+			(at 82.55 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3908,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 17.78 176.53 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 176.53 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3926,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 176.53 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,13 +4549,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0c")
+			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0d")
 		)
 		(pin "3"
-			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88701")
+			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88702")
 		)
 		(pin "2"
-			(uuid "0ec53606-079d-47ea-9978-272dfae4eb57")
+			(uuid "0ec53606-079d-47ea-9978-272dfae4eb58")
 		)
 		(instances
 			(project ""
@@ -4697,13 +4698,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0c")
+			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0e")
 		)
 		(pin "3"
-			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88701")
+			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88703")
 		)
 		(pin "2"
-			(uuid "0ec53606-079d-47ea-9978-272dfae4eb57")
+			(uuid "0ec53606-079d-47ea-9978-272dfae4eb59")
 		)
 		(instances
 			(project ""
@@ -4716,7 +4717,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 181.61 0)
+		(at 85.09 34.29 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4725,7 +4727,7 @@
 		(fields_autoplaced yes)
 		(uuid "80247cc7-fbc1-47c8-8cc1-4b4afb0036c4")
 		(property "Reference" "H2"
-			(at 20.32 180.3399 0)
+			(at 82.55 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4736,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 182.8799 0)
+			(at 82.55 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4745,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 17.78 181.61 0)
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 181.61 0)
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4763,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 181.61 0)
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,10 +4903,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d4")
+			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d5")
 		)
 		(pin "1"
-			(uuid "b0769a6c-2341-4939-a17b-e791d186f58f")
+			(uuid "b0769a6c-2341-4939-a17b-e791d186f590")
 		)
 		(instances
 			(project ""
@@ -5103,10 +5105,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d4")
+			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d6")
 		)
 		(pin "1"
-			(uuid "b0769a6c-2341-4939-a17b-e791d186f58f")
+			(uuid "b0769a6c-2341-4939-a17b-e791d186f591")
 		)
 		(instances
 			(project ""
@@ -5171,10 +5173,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d4")
+			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d7")
 		)
 		(pin "1"
-			(uuid "b0769a6c-2341-4939-a17b-e791d186f58f")
+			(uuid "b0769a6c-2341-4939-a17b-e791d186f592")
 		)
 		(instances
 			(project ""
@@ -5239,10 +5241,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d4")
+			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d8")
 		)
 		(pin "1"
-			(uuid "b0769a6c-2341-4939-a17b-e791d186f58f")
+			(uuid "b0769a6c-2341-4939-a17b-e791d186f593")
 		)
 		(instances
 			(project ""
@@ -5372,10 +5374,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8732d62b-2761-4408-92ed-757783c065e8")
+			(uuid "8732d62b-2761-4408-92ed-757783c065e9")
 		)
 		(pin "2"
-			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d39f")
+			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d3a0")
 		)
 		(instances
 			(project ""
@@ -5516,10 +5518,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8732d62b-2761-4408-92ed-757783c065e8")
+			(uuid "8732d62b-2761-4408-92ed-757783c065ea")
 		)
 		(pin "2"
-			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d39f")
+			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d3a1")
 		)
 		(instances
 			(project ""
@@ -5584,10 +5586,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8732d62b-2761-4408-92ed-757783c065e8")
+			(uuid "8732d62b-2761-4408-92ed-757783c065eb")
 		)
 		(pin "2"
-			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d39f")
+			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d3a2")
 		)
 		(instances
 			(project ""
@@ -5786,13 +5788,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0c")
+			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0f")
 		)
 		(pin "3"
-			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88701")
+			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88704")
 		)
 		(pin "2"
-			(uuid "0ec53606-079d-47ea-9978-272dfae4eb57")
+			(uuid "0ec53606-079d-47ea-9978-272dfae4eb5a")
 		)
 		(instances
 			(project ""
@@ -5857,10 +5859,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d4")
+			(uuid "20591931-b5c0-4f33-9850-0658d6ed23d9")
 		)
 		(pin "1"
-			(uuid "b0769a6c-2341-4939-a17b-e791d186f58f")
+			(uuid "b0769a6c-2341-4939-a17b-e791d186f594")
 		)
 		(instances
 			(project ""
@@ -5873,7 +5875,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 186.69 0)
+		(at 85.09 39.37 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5882,7 +5885,7 @@
 		(fields_autoplaced yes)
 		(uuid "d685d290-c224-479f-8c02-dd5b7ca57be6")
 		(property "Reference" "H3"
-			(at 20.32 185.4199 0)
+			(at 82.55 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +5894,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 187.9599 0)
+			(at 82.55 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5903,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 17.78 186.69 0)
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 186.69 0)
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5921,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 186.69 0)
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,10 +5992,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8732d62b-2761-4408-92ed-757783c065e8")
+			(uuid "8732d62b-2761-4408-92ed-757783c065ec")
 		)
 		(pin "2"
-			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d39f")
+			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d3a3")
 		)
 		(instances
 			(project ""
@@ -6072,7 +6075,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 191.77 0)
+		(at 85.09 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6081,7 +6085,7 @@
 		(fields_autoplaced yes)
 		(uuid "e450a2e7-8faa-424c-b253-e263bc031adf")
 		(property "Reference" "H4"
-			(at 20.32 190.4999 0)
+			(at 82.55 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6094,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 193.0399 0)
+			(at 82.55 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6103,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
-			(at 17.78 191.77 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 191.77 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6121,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 191.77 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,13 +6326,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e0c")
+			(uuid "9dc2c4dc-3e65-4f4d-82c5-d3f9e2529e10")
 		)
 		(pin "3"
-			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88701")
+			(uuid "5953e0fd-3e3c-456a-b640-f8ccc3e88705")
 		)
 		(pin "2"
-			(uuid "0ec53606-079d-47ea-9978-272dfae4eb57")
+			(uuid "0ec53606-079d-47ea-9978-272dfae4eb5b")
 		)
 		(instances
 			(project ""
@@ -6459,10 +6463,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8732d62b-2761-4408-92ed-757783c065e8")
+			(uuid "8732d62b-2761-4408-92ed-757783c065ed")
 		)
 		(pin "2"
-			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d39f")
+			(uuid "2942a7dd-3a3d-4216-a195-a899c9f0d3a4")
 		)
 		(instances
 			(project ""

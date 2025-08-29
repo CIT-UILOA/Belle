@@ -168,6 +168,76 @@
 				(justify left)
 			)
 		)
+		(pin "U1E" output
+			(at 101.6 69.85 180)
+			(uuid "5f73404f-4298-4a3e-9cf4-c3f5f71a1e90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U1T" input
+			(at 101.6 72.39 180)
+			(uuid "a44c162c-0734-4033-a4fe-47f0c77e4061")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U2E" output
+			(at 101.6 74.93 180)
+			(uuid "c48f808e-036c-4a00-8ce6-69a0f5f4e54b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U2T" input
+			(at 101.6 77.47 180)
+			(uuid "b83f055c-1a54-4eaf-96aa-44ac90a0a8cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SERVO ENABLE}" input
+			(at 101.6 57.15 180)
+			(uuid "1e593945-04fb-4855-9714-28bdef9ef759")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I^{2}C SCL" input
+			(at 101.6 60.96 180)
+			(uuid "e5d4b4dd-d178-44e8-b413-88e2ecf76f29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I^{2}C SDA" bidirectional
+			(at 101.6 63.5 180)
+			(uuid "9d61b3f8-3fed-490e-a0b1-06338021e8f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
