@@ -670,12 +670,24 @@
       "[1] HAT Interface"
     ],
     [
+      "98ed4f83-ccd5-4176-a771-f91be77d4327",
+      "[2] Power Management & Delivery"
+    ],
+    [
+      "2f9f6df0-57c6-46a7-8f22-b0c2ea8fe878",
+      "[2a] Motor Power Supply"
+    ],
+    [
+      "6429504f-567e-478a-8f7f-92926a106ca4",
+      "[2b] System Power Supply"
+    ],
+    [
       "c8618b48-a44a-4b17-ab33-542db64ac1dc",
-      "[2] Fan & Misc Systems"
+      "[3] Fan & Sensor Systems"
     ],
     [
       "c889d685-3039-4adb-ba70-2b5226dc43de",
-      "[3] Motors"
+      "[4] Motors"
     ]
   ],
   "text_variables": {}

@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 50.8 64.77) (xy 50.8 77.47)
+			(xy 132.08 106.68) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -24,7 +24,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 52.07) (xy 101.6 52.07)
+			(xy 161.29 93.98) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -34,7 +34,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 49.53) (xy 101.6 49.53)
+			(xy 161.29 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +43,49 @@
 		(uuid "68f907c0-8e14-435f-8ecc-9cbe54ce4525")
 	)
 	(sheet
-		(at 31.75 30.48)
+		(at 39.37 26.67)
+		(size 62.23 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98ed4f83-ccd5-4176-a771-f91be77d4327")
+		(property "Sheetname" "[2] Power Management & Delivery"
+			(at 39.37 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 39.37 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bad Apple"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 72.39)
 		(size 48.26 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59,7 +101,7 @@
 		)
 		(uuid "b30abb3a-5689-47ca-b698-70986eaac049")
 		(property "Sheetname" "[1] HAT Interface"
-			(at 31.75 29.7684 0)
+			(at 113.03 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,7 +110,7 @@
 			)
 		)
 		(property "Sheetfile" "hat.kicad_sch"
-			(at 31.75 65.3546 0)
+			(at 113.03 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +119,7 @@
 			)
 		)
 		(pin "LIDAR MOTOR" output
-			(at 80.01 49.53 0)
+			(at 161.29 91.44 0)
 			(uuid "f892eb3b-1e92-48a9-9d44-451c8db31d36")
 			(effects
 				(font
@@ -87,7 +129,7 @@
 			)
 		)
 		(pin "RXD" input
-			(at 80.01 52.07 0)
+			(at 161.29 93.98 0)
 			(uuid "430cf4b2-78b6-43fd-96fb-23409b85c664")
 			(effects
 				(font
@@ -97,7 +139,7 @@
 			)
 		)
 		(pin "MOTOR SPEED" output
-			(at 50.8 64.77 270)
+			(at 132.08 106.68 270)
 			(uuid "1583d593-f6eb-473b-ab70-92d1ea3d0f80")
 			(effects
 				(font
@@ -115,7 +157,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 43.18)
+		(at 182.88 85.09)
 		(size 67.31 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -130,8 +172,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c8618b48-a44a-4b17-ab33-542db64ac1dc")
-		(property "Sheetname" "[2] Fan & Misc Systems"
-			(at 101.6 42.4684 0)
+		(property "Sheetname" "[3] Fan & Sensor Systems"
+			(at 182.88 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +182,7 @@
 			)
 		)
 		(property "Sheetfile" "fan.kicad_sch"
-			(at 101.6 83.1346 0)
+			(at 182.88 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,7 +191,7 @@
 			)
 		)
 		(pin "PWM" input
-			(at 101.6 49.53 180)
+			(at 182.88 91.44 180)
 			(uuid "ad2dec59-7947-47ee-84e0-7f4e11d4fa06")
 			(effects
 				(font
@@ -159,7 +201,7 @@
 			)
 		)
 		(pin "TXD" output
-			(at 101.6 52.07 180)
+			(at 182.88 93.98 180)
 			(uuid "7237fc73-fcca-4203-a7ce-28570baf5844")
 			(effects
 				(font
@@ -169,7 +211,7 @@
 			)
 		)
 		(pin "U1E" output
-			(at 101.6 69.85 180)
+			(at 182.88 111.76 180)
 			(uuid "5f73404f-4298-4a3e-9cf4-c3f5f71a1e90")
 			(effects
 				(font
@@ -179,7 +221,7 @@
 			)
 		)
 		(pin "U1T" input
-			(at 101.6 72.39 180)
+			(at 182.88 114.3 180)
 			(uuid "a44c162c-0734-4033-a4fe-47f0c77e4061")
 			(effects
 				(font
@@ -189,7 +231,7 @@
 			)
 		)
 		(pin "U2E" output
-			(at 101.6 74.93 180)
+			(at 182.88 116.84 180)
 			(uuid "c48f808e-036c-4a00-8ce6-69a0f5f4e54b")
 			(effects
 				(font
@@ -199,7 +241,7 @@
 			)
 		)
 		(pin "U2T" input
-			(at 101.6 77.47 180)
+			(at 182.88 119.38 180)
 			(uuid "b83f055c-1a54-4eaf-96aa-44ac90a0a8cd")
 			(effects
 				(font
@@ -209,7 +251,7 @@
 			)
 		)
 		(pin "~{SERVO ENABLE}" input
-			(at 101.6 57.15 180)
+			(at 182.88 99.06 180)
 			(uuid "1e593945-04fb-4855-9714-28bdef9ef759")
 			(effects
 				(font
@@ -219,7 +261,7 @@
 			)
 		)
 		(pin "I^{2}C SCL" input
-			(at 101.6 60.96 180)
+			(at 182.88 102.87 180)
 			(uuid "e5d4b4dd-d178-44e8-b413-88e2ecf76f29")
 			(effects
 				(font
@@ -229,7 +271,7 @@
 			)
 		)
 		(pin "I^{2}C SDA" bidirectional
-			(at 101.6 63.5 180)
+			(at 182.88 105.41 180)
 			(uuid "9d61b3f8-3fed-490e-a0b1-06338021e8f6")
 			(effects
 				(font
@@ -241,13 +283,13 @@
 		(instances
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 33.02 77.47)
+		(at 114.3 119.38)
 		(size 46.99 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -262,8 +304,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c889d685-3039-4adb-ba70-2b5226dc43de")
-		(property "Sheetname" "[3] Motors"
-			(at 33.02 76.7584 0)
+		(property "Sheetname" "[4] Motors"
+			(at 114.3 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +314,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 33.02 108.5346 0)
+			(at 114.3 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +323,7 @@
 			)
 		)
 		(pin "MOTOR SPEED" input
-			(at 50.8 77.47 90)
+			(at 132.08 119.38 90)
 			(uuid "687ab885-5630-4371-bb77-653ba04e28a2")
 			(effects
 				(font
@@ -293,7 +335,7 @@
 		(instances
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "4")
+					(page "7")
 				)
 			)
 		)

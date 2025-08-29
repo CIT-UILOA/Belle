@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ad3c322f-d007-4c38-9c24-6acd084f67ac")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 143.51 26.67)
+		(size 64.77 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f9f6df0-57c6-46a7-8f22-b0c2ea8fe878")
+		(property "Sheetname" "[2a] Motor Power Supply"
+			(at 143.51 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_motor.kicad_sch"
+			(at 143.51 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bad Apple"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98ed4f83-ccd5-4176-a771-f91be77d4327"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 74.93)
+		(size 69.85 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6429504f-567e-478a-8f7f-92926a106ca4")
+		(property "Sheetname" "[2b] System Power Supply"
+			(at 163.83 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_sys.kicad_sch"
+			(at 163.83 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bad Apple"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98ed4f83-ccd5-4176-a771-f91be77d4327"
+					(page "5")
+				)
+			)
+		)
+	)
+)
