@@ -1,6 +1,6 @@
 services:
   grumpy:
-    build: ./grumpy
+    build: ./grumpy/backend
     env_file:
       - .env
     ports:
