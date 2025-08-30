@@ -1,0 +1,6 @@
+{
+  "cSpell.ignorePaths": ["**/.venv/**", "/usr/lib/**"],
+  "cSpell.checkOnlyEnabledFileTypes": false,
+  "cSpell.enabled": true,
+  "cSpell.globRoot": "${workspaceFolder}"
+}
